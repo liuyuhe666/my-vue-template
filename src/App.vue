@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import projects from './assets/projects.json'
+import Footer from './components/Footer.vue'
 import Project from './components/Project.vue'
 </script>
 
@@ -24,6 +25,7 @@ import Project from './components/Project.vue'
       />
     </div>
   </div>
+  <Footer />
 </template>
 
 <style scoped>
