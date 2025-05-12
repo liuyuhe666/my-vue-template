@@ -1,0 +1,35 @@
+{
+  "name": "my-vue-template",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.13.0",
+    "@unocss/preset-wind4": "^66.1.1",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.26.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.0.0",
+    "typescript": "~5.8.3",
+    "unocss": "^66.1.1",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  },
+  "lint-staged": {
+    "*": [
+      "eslint --fix"
+    ]
+  }
+}
