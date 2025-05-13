@@ -22,5 +22,35 @@
     "description": "AI 一键去除图片背景",
     "image": "https://gh-og-img.cnliuyuhe.workers.dev/liuyuhe666/rm-img-bg",
     "url": "https://rm-img-bg.vercel.app"
+  },
+  {
+    "name": "agg-hot-search",
+    "description": "聚合热搜",
+    "image": "https://gh-og-img.cnliuyuhe.workers.dev/liuyuhe666/agg-hot-search",
+    "url": "https://agg-hot-search.vercel.app"
+  },
+  {
+    "name": "bili-listen-video",
+    "description": "哔哩听视频",
+    "image": "https://gh-og-img.cnliuyuhe.workers.dev/liuyuhe666/bili-listen-video",
+    "url": "https://bili-listen-video.vercel.app"
+  },
+  {
+    "name": "wx-gzh-cover",
+    "description": "微信公众号封面",
+    "image": "https://gh-og-img.cnliuyuhe.workers.dev/liuyuhe666/wx-gzh-cover",
+    "url": "https://wx-gzh-cover.vercel.app"
+  },
+  {
+    "name": "flzt-auto-checkin",
+    "description": "FLZT 每日签到",
+    "image": "https://gh-og-img.cnliuyuhe.workers.dev/liuyuhe666/flzt-auto-checkin",
+    "url": "https://github.com/liuyuhe666/flzt-auto-checkin"
+  },
+  {
+    "name": "nextjs-moe-counter",
+    "description": "多种风格可选的萌萌计数器",
+    "image": "https://gh-og-img.cnliuyuhe.workers.dev/liuyuhe666/nextjs-moe-counter",
+    "url": "https://nextjs-moe-counter.vercel.app"
   }
 ]

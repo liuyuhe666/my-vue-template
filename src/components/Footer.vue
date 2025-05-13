@@ -11,7 +11,7 @@
       <p
         class="mt-4 text-sm text-neutral-700 dark:text-neutral-100 sm:ml-4 sm:pl-4 sm:border-l sm:border-neutral-300 dark:sm:border-neutral-700 sm:mt-0"
       >
-        © {{ new Date().getFullYear() }} LiuYuhe
+        © {{ new Date().getFullYear() }} <a href="https://github.com/liuyuhe666" target="_blank" class="hover:underline">LiuYuhe</a>
       </p>
       <span
         class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start"
