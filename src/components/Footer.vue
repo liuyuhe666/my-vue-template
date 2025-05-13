@@ -7,7 +7,7 @@
     <div
       class="container flex flex-col items-center py-8 mx-auto px-7 max-w-7xl sm:flex-row"
     >
-      <img src="/logo.png" alt="logo" class="size-6">
+      <img src="/logo.png" alt="logo" class="size-6 dark:bg-white rounded-full">
       <p
         class="mt-4 text-sm text-neutral-700 dark:text-neutral-100 sm:ml-4 sm:pl-4 sm:border-l sm:border-neutral-300 dark:sm:border-neutral-700 sm:mt-0"
       >
