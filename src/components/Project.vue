@@ -1,5 +1,13 @@
 <script setup lang="ts">
-defineProps<{ name: string, description: string, url: string, image: string }>()
+import { ref } from 'vue'
+
+const props = defineProps<{ name: string, description: string, url: string, image: string }>()
+const projectImageFallbackURL = 'https://opengraph.githubassets.com'
+const projectImageURL = ref(props.image)
+
+function projectImageFallback() {
+  projectImageURL.value = projectImageFallbackURL
+}
 </script>
 
 <template>
@@ -18,7 +26,7 @@ defineProps<{ name: string, description: string, url: string, image: string }>()
       class="relative z-30 block duration-300 ease-out group-hover:-translate-x-1 group-hover:-translate-y-1"
     >
       <span class="block w-full">
-        <img :src="image" class="w-full h-auto rounded-lg aspect-[16/9] object-cover" :alt="image">
+        <img :src="projectImageURL" class="w-full h-auto rounded-lg aspect-[16/9] object-cover" :alt="projectImageURL" @error="projectImageFallback">
       </span>
       <span class="block w-full px-1 mt-5 mb-1 sm:mt-3">
         <span
