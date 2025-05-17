@@ -6,7 +6,7 @@ import Project from './components/Project.vue'
 </script>
 
 <template>
-  <div class="w-full min-h-screen bg-white dark:bg-neutral-950">
+  <div class="w-full min-h-screen bg-[url(/bg.jpg)] bg-cover bg-center dark:bg-none dark:bg-neutral-950">
     <Header />
     <div class="max-w-3xl mx-auto my-12 px-7 lg:px-0">
       <h1 class="text-2xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-3xl lg:text-4xl">
