@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const props = defineProps<{ name: string, description: string, url: string, image: string }>()
-const projectImageFallbackURL = 'https://opengraph.githubassets.com'
+const projectImageFallbackURL = '/default-project-image.png'
 const projectImageURL = ref(props.image)
 
 function projectImageFallback() {
