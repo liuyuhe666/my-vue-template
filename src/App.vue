@@ -1,11 +1,22 @@
 <script setup lang="ts">
+import { onMounted, ref } from 'vue'
 import projects from './assets/projects.json'
 import Footer from './components/Footer.vue'
 import Header from './components/Header.vue'
+import Loading from './components/Loading.vue'
 import Project from './components/Project.vue'
+
+const isLoading = ref(true)
+
+onMounted(() => {
+  setTimeout(() => {
+    isLoading.value = false
+  }, 2000)
+})
 </script>
 
 <template>
+  <Loading v-if="isLoading" />
   <div class="w-full min-h-screen bg-[url(/bg.jpg)] bg-cover bg-center dark:bg-none dark:bg-neutral-950">
     <Header />
     <div class="max-w-3xl mx-auto my-12 px-7 lg:px-0">
